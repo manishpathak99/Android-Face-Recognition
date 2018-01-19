@@ -38,6 +38,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/btnTrainingTest"
             android:checked="false"
+            android:visibility="gone"
             android:textOn="Test"
             android:textOff="Training"
             android:layout_below="@+id/txt_Name"
@@ -52,6 +53,7 @@
             android:textOff="Reference"
             android:layout_below="@+id/btnTrainingTest"
             android:layout_centerInParent="true"
+            android:visibility="gone"
             android:enabled="false"/>
 
         <ToggleButton
@@ -61,6 +63,7 @@
             android:checked="false"
             android:textOn="Manually"
             android:textOff="Time"
+            android:visibility="gone"
             android:layout_below="@+id/btnReferenceDeviation"
             android:layout_centerInParent="true"/>
 

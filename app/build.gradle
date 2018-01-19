@@ -2,8 +2,8 @@ apply plugin: 'com.android.application'
 apply plugin: 'net.saliman.cobertura'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    compileSdkVersion 24
+    buildToolsVersion "25.0.0"
 
     defaultConfig {
         applicationId "ch.zhaw.facerecognition"
